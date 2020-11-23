@@ -10,6 +10,8 @@ public class RealRationalTester {
     RationalNumber h = new RationalNumber(50,25);
     RationalNumber i = new RationalNumber(6,1);
     RationalNumber j = new RationalNumber(3,1);
+    RationalNumber k = new RationalNumber(21,65);
+    RationalNumber l = new RationalNumber(42,5);
 
     System.out.println("RealNumber tests:");
     System.out.println("equals tests:");
@@ -153,6 +155,9 @@ public class RealRationalTester {
     System.out.println("Expected Result: 3/1");
     System.out.print("Result: ");
     System.out.println(i.subtract(j));
+    System.out.println("Expected Result: -105/13");
+    System.out.print("Result: ");
+    System.out.println(k.subtract(l));
 
   }
 }

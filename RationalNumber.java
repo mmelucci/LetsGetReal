@@ -77,6 +77,8 @@ public class RationalNumber extends RealNumber
     //http://sites.math.rutgers.edu/~greenfie/gs2004/euclid.html
     int temp = 0;
     int r = 0;
+    a = Math.abs(a);
+    b = Math.abs(b);
     if (a < b) {
       temp = a;
       a = b;
