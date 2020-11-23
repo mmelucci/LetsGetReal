@@ -145,5 +145,14 @@ public class RealRationalTester {
     System.out.print("Result: ");
     System.out.println(i.divide(j));
 
+    System.out.println();
+    System.out.println("add, subtract tests:");
+    System.out.println("Expected Result: 9/1");
+    System.out.print("Result: ");
+    System.out.println(j.add(i));
+    System.out.println("Expected Result: 3/1");
+    System.out.print("Result: ");
+    System.out.println(i.subtract(j));
+
   }
 }

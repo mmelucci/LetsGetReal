@@ -121,14 +121,14 @@ public class RationalNumber extends RealNumber
   *Return a new RationalNumber that is the sum of this and the other
   */
   public RationalNumber add(RationalNumber other){
-    // RationalNumber temp = new RationalNumber((this.numerator + other.numerator), (this.denominator + other.denominator));
-    return null;
+    RationalNumber temp = new RationalNumber(((this.numerator * other.denominator) + (other.numerator * this.denominator)), (this.denominator * other.denominator));
+    return temp;
   }
   /**
   *Return a new RationalNumber that this minus the other
   */
   public RationalNumber subtract(RationalNumber other){
-    // RationalNumber temp = new RationalNumber((this.numerator - other.numerator), );
-    return null;
+    RationalNumber temp = new RationalNumber(((this.numerator * other.denominator) - (other.numerator * this.denominator)), (this.denominator * other.denominator));
+    return temp;
   }
 }
