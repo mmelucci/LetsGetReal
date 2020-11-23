@@ -90,5 +90,17 @@ public class RealRationalTester {
     System.out.println("Result: ");
     System.out.println(f.getNumerator());
 
+    System.out.println();
+    System.out.println("getDenominator tests:");
+    System.out.println("Expected Result: 1");
+    System.out.println("Result: ");
+    System.out.println(d.getDenominator());
+    System.out.println("Expected Result: 2");
+    System.out.println("Result: ");
+    System.out.println(e.getDenominator());
+    System.out.println("Expected Result: 1");
+    System.out.println("Result: ");
+    System.out.println(f.getDenominator());
+
   }
 }
