@@ -7,6 +7,7 @@ public class RealRationalTester {
     RationalNumber e = new RationalNumber(1,2);
     RationalNumber f = new RationalNumber(2,-1);
     RationalNumber g = new RationalNumber(1,2);
+    RationalNumber h = new RationalNumber(50,25);
 
     System.out.println("RealNumber tests:");
     System.out.println("equals tests:");
@@ -70,62 +71,67 @@ public class RealRationalTester {
     System.out.println("RationalNumber tests:");
     System.out.println("getValue tests:");
     System.out.println("Expected Result: 0.0");
-    System.out.println("Result: ");
+    System.out.print("Result: ");
     System.out.println(d.getValue());
     System.out.println("Expected Result: 0.5");
-    System.out.println("Result: ");
+    System.out.print("Result: ");
     System.out.println(e.getValue());
     System.out.println("Expected Result: -2.0");
-    System.out.println("Result: ");
+    System.out.print("Result: ");
     System.out.println(f.getValue());
 
     System.out.println();
     System.out.println("getNumerator tests:");
     System.out.println("Expected Result: 0");
-    System.out.println("Result: ");
+    System.out.print("Result: ");
     System.out.println(d.getNumerator());
     System.out.println("Expected Result: 1");
-    System.out.println("Result: ");
+    System.out.print("Result: ");
     System.out.println(e.getNumerator());
     System.out.println("Expected Result: -2");
-    System.out.println("Result: ");
+    System.out.print("Result: ");
     System.out.println(f.getNumerator());
 
     System.out.println();
     System.out.println("getDenominator tests:");
     System.out.println("Expected Result: 1");
-    System.out.println("Result: ");
+    System.out.print("Result: ");
     System.out.println(d.getDenominator());
     System.out.println("Expected Result: 2");
-    System.out.println("Result: ");
+    System.out.print("Result: ");
     System.out.println(e.getDenominator());
     System.out.println("Expected Result: 1");
-    System.out.println("Result: ");
+    System.out.print("Result: ");
     System.out.println(f.getDenominator());
 
     System.out.println();
     System.out.println("reciprocal & toString tests:");
     System.out.println("Expected Result: 0/1");
-    System.out.println("Result: ");
+    System.out.print("Result: ");
     System.out.println(d.reciprocal());
     System.out.println("Expected Result: 2/1");
-    System.out.println("Result: ");
+    System.out.print("Result: ");
     System.out.println(e.reciprocal());
     System.out.println("Expected Result: -1/2");
-    System.out.println("Result: ");
+    System.out.print("Result: ");
     System.out.println(f.reciprocal());
 
     System.out.println();
     System.out.println("equals tests:");
     System.out.println("Expected Result: true");
-    System.out.println("Result: ");
+    System.out.print("Result: ");
     e.reciprocal();
     System.out.println(g.equals(e));
     System.out.println("Expected Result: false");
-    System.out.println("Result: ");
+    System.out.print("Result: ");
     f.reciprocal();
     d.reciprocal();
     System.out.println(f.equals(d));
 
+    System.out.println();
+    System.out.println("reduce test:");
+    System.out.println("Expected Result: 2/1");
+    System.out.print("Result: ");
+    System.out.println(h);
   }
 }
