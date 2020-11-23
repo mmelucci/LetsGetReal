@@ -105,26 +105,30 @@ public class RationalNumber extends RealNumber
   *Return a new RationalNumber that is the product of this and the other
   */
   public RationalNumber multiply(RationalNumber other){
-    return null;
+    RationalNumber temp = new RationalNumber((this.numerator * other.numerator), (this.denominator * other.denominator));
+    return temp;
   }
 
   /**
   *Return a new RationalNumber that is the this divided by the other
   */
   public RationalNumber divide(RationalNumber other){
-    return null;
+    RationalNumber temp = new RationalNumber((this.numerator * other.denominator), (this.denominator * other.numerator));
+    return temp;
   }
 
   /**
   *Return a new RationalNumber that is the sum of this and the other
   */
   public RationalNumber add(RationalNumber other){
+    // RationalNumber temp = new RationalNumber((this.numerator + other.numerator), (this.denominator + other.denominator));
     return null;
   }
   /**
   *Return a new RationalNumber that this minus the other
   */
   public RationalNumber subtract(RationalNumber other){
+    // RationalNumber temp = new RationalNumber((this.numerator - other.numerator), );
     return null;
   }
 }

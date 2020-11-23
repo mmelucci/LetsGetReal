@@ -8,6 +8,8 @@ public class RealRationalTester {
     RationalNumber f = new RationalNumber(2,-1);
     RationalNumber g = new RationalNumber(1,2);
     RationalNumber h = new RationalNumber(50,25);
+    RationalNumber i = new RationalNumber(6,1);
+    RationalNumber j = new RationalNumber(3,1);
 
     System.out.println("RealNumber tests:");
     System.out.println("equals tests:");
@@ -133,5 +135,15 @@ public class RealRationalTester {
     System.out.println("Expected Result: 2/1");
     System.out.print("Result: ");
     System.out.println(h);
+
+    System.out.println();
+    System.out.println("multiply, divide tests:");
+    System.out.println("Expected Result: -1/1");
+    System.out.print("Result: ");
+    System.out.println(e.multiply(f));
+    System.out.println("Expected Result: 2/1");
+    System.out.print("Result: ");
+    System.out.println(i.divide(j));
+
   }
 }
