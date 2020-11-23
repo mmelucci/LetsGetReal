@@ -6,6 +6,7 @@ public class RealRationalTester {
     RationalNumber d = new RationalNumber(1,0);
     RationalNumber e = new RationalNumber(1,2);
     RationalNumber f = new RationalNumber(2,-1);
+    RationalNumber g = new RationalNumber(1,2);
 
     System.out.println("RealNumber tests:");
     System.out.println("equals tests:");
@@ -101,6 +102,30 @@ public class RealRationalTester {
     System.out.println("Expected Result: 1");
     System.out.println("Result: ");
     System.out.println(f.getDenominator());
+
+    System.out.println();
+    System.out.println("reciprocal & toString tests:");
+    System.out.println("Expected Result: 0/1");
+    System.out.println("Result: ");
+    System.out.println(d.reciprocal());
+    System.out.println("Expected Result: 2/1");
+    System.out.println("Result: ");
+    System.out.println(e.reciprocal());
+    System.out.println("Expected Result: -1/2");
+    System.out.println("Result: ");
+    System.out.println(f.reciprocal());
+
+    System.out.println();
+    System.out.println("equals tests:");
+    System.out.println("Expected Result: true");
+    System.out.println("Result: ");
+    e.reciprocal();
+    System.out.println(g.equals(e));
+    System.out.println("Expected Result: false");
+    System.out.println("Result: ");
+    f.reciprocal();
+    d.reciprocal();
+    System.out.println(f.equals(d));
 
   }
 }

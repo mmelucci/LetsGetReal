@@ -45,12 +45,16 @@ public class RationalNumber extends RealNumber
   *and denominator as this RationalNumber but reversed.
   */
   public RationalNumber reciprocal(){
-    return null;
+    RationalNumber temp = new RationalNumber(denominator,numerator);
+    return temp;
   }
   /**
   *@return true when the RationalNumbers have the same numerators and denominators, false otherwise.
   */
   public boolean equals(RationalNumber other){
+    if ((other.getNumerator() == this.getNumerator()) && (other.getDenominator() == this.getDenominator())) {
+      return true;
+    }
     return false;
   }
 
@@ -59,7 +63,7 @@ public class RationalNumber extends RealNumber
   *@return the value expressed as "3/4" or "8/3"
   */
   public String toString(){
-    return "0";
+    return numerator + "/" + denominator;
   }
 
   /**Calculate the GCD of two integers.
