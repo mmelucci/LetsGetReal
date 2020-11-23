@@ -3,6 +3,11 @@ public class RealRationalTester {
     RealNumber a = new RealNumber(0.0);
     RealNumber b = new RealNumber(1.0);
     RealNumber c = new RealNumber(1.000009);
+    RationalNumber d = new RationalNumber(1,0);
+    RationalNumber e = new RationalNumber(1,2);
+    RationalNumber f = new RationalNumber(2,-1);
+
+    System.out.println("RealNumber tests:");
     System.out.println("equals tests:");
     System.out.println("Expected Result: false");
     System.out.print("Result: ");
@@ -58,5 +63,32 @@ public class RealRationalTester {
     System.out.println("Expected Result: .000009");
     System.out.print("Result: ");
     System.out.println(c.subtract(b));
+
+
+    System.out.println();
+    System.out.println("RationalNumber tests:");
+    System.out.println("getValue tests:");
+    System.out.println("Expected Result: 0.0");
+    System.out.println("Result: ");
+    System.out.println(d.getValue());
+    System.out.println("Expected Result: 0.5");
+    System.out.println("Result: ");
+    System.out.println(e.getValue());
+    System.out.println("Expected Result: -2.0");
+    System.out.println("Result: ");
+    System.out.println(f.getValue());
+
+    System.out.println();
+    System.out.println("getNumerator tests:");
+    System.out.println("Expected Result: 0");
+    System.out.println("Result: ");
+    System.out.println(d.getNumerator());
+    System.out.println("Expected Result: 1");
+    System.out.println("Result: ");
+    System.out.println(e.getNumerator());
+    System.out.println("Expected Result: -2");
+    System.out.println("Result: ");
+    System.out.println(f.getNumerator());
+
   }
 }
