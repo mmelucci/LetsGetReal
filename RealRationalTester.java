@@ -110,10 +110,10 @@ public class RealRationalTester {
 
     System.out.println();
     System.out.println("reciprocal & toString tests:");
-    System.out.println("Expected Result: 0/1");
+    System.out.println("Expected Result: 0");
     System.out.print("Result: ");
     System.out.println(d.reciprocal());
-    System.out.println("Expected Result: 2/1");
+    System.out.println("Expected Result: 2");
     System.out.print("Result: ");
     System.out.println(e.reciprocal());
     System.out.println("Expected Result: -1/2");
@@ -134,25 +134,25 @@ public class RealRationalTester {
 
     System.out.println();
     System.out.println("reduce test:");
-    System.out.println("Expected Result: 2/1");
+    System.out.println("Expected Result: 2");
     System.out.print("Result: ");
     System.out.println(h);
 
     System.out.println();
     System.out.println("multiply, divide tests:");
-    System.out.println("Expected Result: -1/1");
+    System.out.println("Expected Result: -1");
     System.out.print("Result: ");
     System.out.println(e.multiply(f));
-    System.out.println("Expected Result: 2/1");
+    System.out.println("Expected Result: 2");
     System.out.print("Result: ");
     System.out.println(i.divide(j));
 
     System.out.println();
     System.out.println("add, subtract tests:");
-    System.out.println("Expected Result: 9/1");
+    System.out.println("Expected Result: 9");
     System.out.print("Result: ");
     System.out.println(j.add(i));
-    System.out.println("Expected Result: 3/1");
+    System.out.println("Expected Result: 3");
     System.out.print("Result: ");
     System.out.println(i.subtract(j));
     System.out.println("Expected Result: -105/13");
