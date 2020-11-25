@@ -12,6 +12,7 @@ public class RealRationalTester {
     RationalNumber j = new RationalNumber(3,1);
     RationalNumber k = new RationalNumber(21,65);
     RationalNumber l = new RationalNumber(42,5);
+    RationalNumber m = new RationalNumber(0,5);
 
     System.out.println("RealNumber tests:");
     System.out.println("equals tests:");
@@ -159,5 +160,7 @@ public class RealRationalTester {
     System.out.print("Result: ");
     System.out.println(k.subtract(l));
 
+    System.out.println();
+    System.out.println(m);
   }
 }
